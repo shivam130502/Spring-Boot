@@ -11,4 +11,9 @@ public class HelloWorldController {
         return "Hello People!";
     }
 
+    @GetMapping(path = "/random")
+    public int randomNumber(){
+        return (int) Math.random() * 10;
+    }
+
 }
