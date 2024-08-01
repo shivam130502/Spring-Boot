@@ -13,7 +13,7 @@ public class HelloWorldController {
 
     @GetMapping(path = "/random")
     public int randomNumber(){
-        return (int) Math.random() * 10;
+        return (int) (Math.random() * 10);
     }
 
 }
