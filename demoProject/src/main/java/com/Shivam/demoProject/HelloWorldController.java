@@ -11,4 +11,14 @@ public class HelloWorldController {
         return "Hello People!";
     }
 
+    @GetMapping(path = "/welcome")
+    public String welcome(){
+        return "Welcome Back";
+    }
+
+    // @GetMapping(path = "/random")
+    // public int randomNumber(){
+    //     return (int) (Math.random() * 10);
+    // }
+
 }
