@@ -6,6 +6,7 @@ public class ColorPrinter {
 
     public ColorPrinter(String color){
         this.color = "returns color";
+        System.out.println(currentColor());
     }
 
     private String currentColor(){
