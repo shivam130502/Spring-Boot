@@ -21,4 +21,9 @@ public class HelloWorldController {
         return (int) (Math.random() * 10);
     }
 
+    @GetMapping(path = "/name")
+    public String yourName(){
+        return "Your Name Here !";
+    }
+
 }
